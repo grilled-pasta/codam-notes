@@ -55,3 +55,22 @@ While looking for a module or package named “foo”, for each directory in the
 <module 'parent.two' (namespace) from ['/home/alkonsta/test/parent/two']>
 ```
 ## Searching
+To begin searching, Python needs the _fully qualified_ name of the module. It may be the dotted path to a submodule, e.g. `foo.bar.baz`. In this case, Python first tries to import `foo`, then `foo.bar`, and finally `foo.bar.baz`. If any of the intermediate import fails, a `ModuleNotFoundError` is raised.
+### The Module Cache: `sys.modules`
+Python maintains a dictionary called `sys.modules`. It stores references to modules that have already been imported. When it encounters an `import` statement, Python first checks `sys.modules`.
+
+```python
+>>> import sys
+>>> import math
+>>> print("math" in sys.modules)
+True
+>>> print(sys.modules["math"])
+<module 'math' from '/home/alkonsta/.pyenv/versions/3.14.1/lib/python3.14/lib-dynload/math.cpython-314-x86_64-linux-gnu.so'>
+```
+
+| Cache Status      | What Happens                             |
+| ----------------- | ---------------------------------------- |
+| Module exists     | Python reuses the existing module object |
+| Module is missing | Python continues the import search       |
+| Value is `None`   | Python raises `ModuleNotFoundError`      |
+> For a nested module such as `foo.bar.baz`, the cache contains entries for all three levels.

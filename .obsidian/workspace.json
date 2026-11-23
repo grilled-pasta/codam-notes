@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a935dac9dfedafd3",
+        "id": "b5cc030767890d3a",
         "type": "tabs",
         "children": [
           {
-            "id": "56c77aeec50101b7",
+            "id": "32e2044c92b4c702",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -188,13 +188,20 @@
       "bases:Create new base": false
     }
   },
-  "active": "56c77aeec50101b7",
+  "active": "32e2044c92b4c702",
   "lastOpenFiles": [
+    "2 - Python/03 - Data Model.md",
+    "2 - Python/02 - Identifiers and Keywords.md",
+    "2 - Python/01 - Environment.md",
+    "2 - Python/05 - The Import System.md",
+    "0 - General/Environment/01 - Audit.md",
+    "0 - General/Environment/extension-details.md",
+    "0 - General/Environment/manual-packages.md",
+    "0 - General/Environment/fonts.md",
+    "0 - General/Environment/02 - CODAM Workstation.md",
     "0 - General/Environment/gnome-extensions-enabled.md",
     "0 - General/Environment/gnome-settings.dconf.md",
     "0 - General/Environment/terminal-settings.dconf.md",
-    "0 - General/Environment/02 - CODAM Workstation.md",
-    "0 - General/Environment/01 - Audit.md",
     "Untitled.md",
     "0 - General/Environment/terminal-settings.dconf",
     "0 - General/Environment/gnome-settings.dconf",
@@ -209,11 +216,7 @@
     "0 - General/Environment",
     "0 - General/codam-report2.txt",
     "0 - General/codam-report.txt",
-    "2 - Python/05 - The Import System.md",
     "2 - Python/04 - Execution Model.md",
-    "2 - Python/03 - Data Model.md",
-    "2 - Python/02 - Identifiers and Keywords.md",
-    "2 - Python/01 - Environment.md",
     "0 - General/00 - How to Learn.md",
     "2 - Python/00 - Resources.md",
     "2 - Python/Projects/00 - Growing Code.md",

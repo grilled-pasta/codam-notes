@@ -150,12 +150,14 @@ find ~/.config/nvim -maxdepth 3 -type f
 ```
 
 ## GNOME extension states and versions
+
 ```bash
 gnome-extensions list --enabled
 gnome-extensions list --disabled
 gnome-extensions list -d
 ```
 ## Development Tool Versions
+
 ```bash
 gcc --version
 g++ --version
@@ -209,4 +211,28 @@ NVIM v0.13.0-dev
 Build type: RelWithDebInfo
 LuaJIT 2.1.0-beta3
 Run "nvim -V1 -v" for more info
+```
+## Fonts
+
+```bash
+fc-list : family | sort -u
+fc-match monospace
+fc-match Cantarell
+```
+
+> DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book"
+> DejaVuSans.ttf: "DejaVu Sans" "Book"
+### Manually Installed Packages
+
+```bash
+apt-mark showmanual > ~/codam-backup/manual-packages.txt
+```
+
+### Gnome-Shell Extensions Version
+```bash
+for uuid in $(gnome-extensions list); do
+    echo "================================"
+    echo "UUID: $uuid"
+    gnome-extensions info "$uuid" | grep -E "Name:|Description:|Path:|Version:|State:"
+done
 ```
