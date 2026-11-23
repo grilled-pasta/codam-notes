@@ -1,0 +1,2 @@
+- [ ] [Techniques for Efficiently Learning Programming Languages](https://www.flyingmachinestudios.com/programming/learn-programming-languages-efficiently/)
+- [ ] [Make It Stick: The Science of Successful Learning](https://www.communitypicks.com/r/learnprogramming/s/17592186047889-make-it-stick-the-science-of-successful-learning)
