@@ -1,0 +1,9 @@
+apps-menu@gnome-shell-extensions.gcampax.github.com
+drive-menu@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+user-theme@gnome-shell-extensions.gcampax.github.com
+workspace-indicator@gnome-shell-extensions.gcampax.github.com
+dash-to-dock@micxgx.gmail.com
+desktopicons-neo@darkdemon
+lockscreen@42network.org
+homesize@42angouleme.fr

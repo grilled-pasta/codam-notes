@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Python/04 - Execution Model.md",
+                "file": "2 - Python/05 - The Import System.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 - Execution Model"
+              "title": "05 - The Import System"
             }
           }
         ]
@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 283.5
   },
   "right": {
     "id": "fa09c8c83a246095",
@@ -191,23 +190,35 @@
   },
   "active": "56c77aeec50101b7",
   "lastOpenFiles": [
-    "2 - Python/03 - Data Model.md",
+    "0 - General/Environment/gnome-extensions-enabled.md",
+    "0 - General/Environment/gnome-settings.dconf.md",
+    "0 - General/Environment/terminal-settings.dconf.md",
+    "0 - General/Environment/02 - CODAM Workstation.md",
+    "0 - General/Environment/01 - Audit.md",
+    "Untitled.md",
+    "0 - General/Environment/terminal-settings.dconf",
+    "0 - General/Environment/gnome-settings.dconf",
+    "0 - General/Environment/gnome-extensions-disabled.md",
+    "0 - General/Environment/gnome-extensions-details.md",
+    "0 - General/Environment/codam-report2.md",
+    "0 - General/Environment/codam-report.md",
+    "0 - General/Environment/gnome-extensions.txt",
+    "0 - General/Environment/gnome-extensions-enabled.txt",
+    "0 - General/Environment/gnome-extensions-disabled.txt",
+    "0 - General/Environment/gnome-extensions-details.txt",
+    "0 - General/Environment",
+    "0 - General/codam-report2.txt",
+    "0 - General/codam-report.txt",
+    "2 - Python/05 - The Import System.md",
     "2 - Python/04 - Execution Model.md",
-    "0 - General/00 - How to Learn.md",
+    "2 - Python/03 - Data Model.md",
     "2 - Python/02 - Identifiers and Keywords.md",
-    "2 - Python/00 - Resources.md",
     "2 - Python/01 - Environment.md",
+    "0 - General/00 - How to Learn.md",
+    "2 - Python/00 - Resources.md",
     "2 - Python/Projects/00 - Growing Code.md",
     "2 - Python/Projects/01 - Code Cultivation.md",
     "2 - Python/Projects/00 - Growing Code/en.subject.pdf",
-    "2 - Python/Projects/00 - Growing Code",
-    "1 - C/00 - Resources.md",
-    "2 - Python/Projects",
-    "1 - C/Projects",
-    "1 - C",
-    "2 - Python",
-    "9 - Projects",
-    "1 - C",
-    "0 - General"
+    "1 - C/00 - Resources.md"
   ]
 }
