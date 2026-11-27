@@ -188,12 +188,13 @@
       "bases:Create new base": false
     }
   },
-  "active": "32e2044c92b4c702",
+  "active": "b7b6719d286db46b",
   "lastOpenFiles": [
-    "2 - Python/03 - Data Model.md",
+    "2 - Python/04 - Execution Model.md",
     "2 - Python/02 - Identifiers and Keywords.md",
-    "2 - Python/01 - Environment.md",
+    "2 - Python/03 - Data Model.md",
     "2 - Python/05 - The Import System.md",
+    "2 - Python/01 - Environment.md",
     "0 - General/Environment/01 - Audit.md",
     "0 - General/Environment/extension-details.md",
     "0 - General/Environment/manual-packages.md",
@@ -216,7 +217,6 @@
     "0 - General/Environment",
     "0 - General/codam-report2.txt",
     "0 - General/codam-report.txt",
-    "2 - Python/04 - Execution Model.md",
     "0 - General/00 - How to Learn.md",
     "2 - Python/00 - Resources.md",
     "2 - Python/Projects/00 - Growing Code.md",
